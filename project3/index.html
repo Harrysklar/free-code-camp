@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Data Structures and Algorithms Documentation</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <nav id="navbar">
+    <header>Data Structures &amp; Algorithms</header>
+    <a class="nav-link" href="#Data_Structures">Data Structures</a>
+    <a class="nav-link" href="#Algorithms">Algorithms</a>
+    <a class="nav-link" href="#Big_O_Notation">Big O Notation</a>
+    <a class="nav-link" href="#Sorting_Techniques">Sorting Techniques</a>
+    <a class="nav-link" href="#Trees_and_Graphs">Trees and Graphs</a>
+  </nav>
+
+  <main id="main-doc">
+    <section class="main-section" id="Data_Structures">
+      <header>Data Structures</header>
+      <p>Data structures are methods of organizing data so that it can be used efficiently.</p>
+      <p>They are foundational for writing efficient algorithms.</p>
+      <p>Common data structures include arrays, linked lists, stacks, queues, trees, and graphs.</p>
+      <code>struct Node { int data; Node* next; };</code>
+      <ul>
+        <li>Arrays</li>
+        <li>Linked Lists</li>
+        <li>Stacks</li>
+        <li>Queues</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="Algorithms">
+      <header>Algorithms</header>
+      <p>Algorithms are step-by-step procedures for calculations and problem solving.</p>
+      <p>They are used to process Data and perform various operations.</p>
+      <p>Examples include sorting, searching, and graph traversal algorithms.</p>
+      <code>function binarySearch(arr, target) { /* ... */ }</code>
+      <ul>
+        <li>Sorting</li>
+        <li>Searching</li>
+        <li>Graph Traversal</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="Big_O_Notation">
+      <header>Big O Notation</header>
+      <p>Big O notation describes the upper limit of an algorithm's running time.</p>
+      <p>It provides a measure of the algorithm's worst-case performance.</p>
+      <p>This notation is essential for comparing algorithm efficiency.</p>
+      <code>O(n log n)</code>
+      <ul>
+        <li>O(1) - Constant Time</li>
+        <li>O(n) - Linear Time</li>
+        <li>O(n²) - Quadratic Time</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="Sorting_Techniques">
+      <header>Sorting Techniques</header>
+      <p>Sorting is one of the most common algorithmic problems.</p>
+      <p>Efficient sorting is critical for optimizing search and data processing tasks.</p>
+      <p>Popular sorting algorithms include quicksort, mergesort, and bubblesort.</p>
+      <code>sort(array) { /* sorting logic */ }</code>
+      <ul>
+        <li>Quicksort</li>
+        <li>Mergesort</li>
+        <li>Bubblesort</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="Trees_and_Graphs">
+      <header>Trees and Graphs</header>
+      <p>Trees and graphs are non-linear data structures that represent hierarchical and network relationships.</p>
+      <p>They are widely used in computer science for organizing and processing complex data.</p>
+      <p>Examples include binary trees, AVL trees, and directed or undirected graphs.</p>
+      <code>
+        class TreeNode {
+          constructor(value) {
+            this.value = value;
+            this.children = [];
+          }
+        }
+      </code>
+      <ul>
+        <li>Binary Trees</li>
+        <li>AVL Trees</li>
+        <li>Graphs</li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
